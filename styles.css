@@ -11,6 +11,46 @@ h1 {
     color:rebeccapurple;
     display: flex;
     justify-content: space-between;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.results {
+    border: 1px solid rebeccapurple;
+    font-size: 16px;
+    background-color: rgb(230, 220, 240);
+    cursor: pointer;
+    width: 175px;
+}
+
+.inputField {
+    width: 175px;
+}
+
+.getTravelInfo {
+    height: fit-content;
+    margin: auto;
+    background-color: green;
+    color: honeydew;
+}
+
+.infoBox {
+    border: 1px solid black;
+    width: 550px;
+    height: 250px;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    color: honeydew;
+}
+
+.myStopHeader {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.container {
+    border-collapse: separate;
+    border-spacing: 10px;
 }
